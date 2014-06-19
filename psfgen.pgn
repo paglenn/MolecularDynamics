@@ -1,0 +1,13 @@
+set name ak_f34
+set src ../protein/apo/$name
+set dst ../target_frames/$name
+package require psfgen
+topology ../params/top_all27_prot_lipid.inp
+pdbalias residue HIS HSE
+pdbalias atom ILE CD1 CD
+segment U {pdb $src.pdb}
+coordpdb $src.pdb U
+guesscoord
+writepdb $dst.pdb
+writepsf $dst.psf
+exit
