@@ -1,5 +1,6 @@
 # modify_Go_NB.py
-# modify Go model Non Bonded contacts
+# input: Go model parameter file
+# modify Go model Non Bonded contacts by a multiple
 
 infile = open('GO_3L64.param','r')
 outfile = open('GO_MOD.param','w')

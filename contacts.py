@@ -1,4 +1,5 @@
 # Usage: python contacts.py [inputfile] [outputfile]
+# compute native contacts from trajectory
 from sys import argv
 
 filename = ''#'100ns'#/'#+argv[1]

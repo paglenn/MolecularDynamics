@@ -1,6 +1,6 @@
 # Paul Glenn
-# coor.py <run_name>
 # plot reaction coordinate
+# usage: python coor.py <run_name>
 import pylab as pl
 import sys
 run = sys.argv[1]
